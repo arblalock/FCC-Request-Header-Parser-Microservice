@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 
 // your first API endpoint...
 app.get('/api/whoami', function (req, res) {
-  res.json({ipaddress: req.headers['x-forwarded-for'], language: req.headers['accept-language'], 'software': req.get('User-Agent')})
+  res.json({ipaddress: req.headers['x-forwarded-for'].split(',').shift(), language: req.headers['accept-language'], 'software': req.get('User-Agent')})
 })
 
 // listen for requests :)
