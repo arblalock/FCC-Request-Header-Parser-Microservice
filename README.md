@@ -1,6 +1,7 @@
 # FCC-Request-Header-Parser-Microservice
-Example: https://arblalock-fcc-request-header-parser-microservice.glitch.me/api/whoami
-* A basic request header parser
+**Description:** A microservice api that parses request headers
+
+**Example:** https://arblalock-fcc-request-header-parser-microservice.glitch.me/api/whoami
 
 * Created with Node and Express.
 
